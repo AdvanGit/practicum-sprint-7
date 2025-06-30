@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "5dd4f7b81790022d",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0c763b3f472f404",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b19dfb066aa560d8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f977bbf4d984550d",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf463e38bfabd8f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "138c26d23311d41d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "8593366422902ffc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "ac5166ce73250c01",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5e19c1fae25e2fe4",
+    "type": "split",
+    "children": [
+      {
+        "id": "de38b264e6dddbb3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94f9bf2ed77b9826",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Task2/check-list.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для check-list"
+            }
+          },
+          {
+            "id": "79dcf4aeef69396f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Task2/check-list.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из check-list"
+            }
+          },
+          {
+            "id": "ae7f1de850ecf7bb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "bcced7f9f9afffdd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Task2/check-list.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура check-list"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "b19dfb066aa560d8",
+  "lastOpenFiles": [
+    "Task5/deny-all.yaml",
+    "Task5/isolated-pod.yaml",
+    "Task5",
+    "Task4/Task5",
+    "Task4/Шаблон_проектная_работа_7спринт.md",
+    "Task4/проектная_работа_7спринт.md",
+    "Task4/namespaces.yaml",
+    "Task4/bindings.yaml",
+    "Task4/roles.yaml",
+    "Task4/viewer.key",
+    "Task4/viewer.crt",
+    "Task4/developer.key",
+    "Task4/developer.crt",
+    "IB.md",
+    "Task2/check-list.md",
+    "Task3/requirements.md",
+    "2025-06-23.md",
+    "Без названия.canvas"
+  ]
+}

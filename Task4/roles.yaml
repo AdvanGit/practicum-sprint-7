@@ -1,0 +1,56 @@
+# roles.yaml
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: cluster-admin
+rules:
+- apiGroups: ["*"]
+  resources: ["*"]
+  verbs: ["*"]
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: developer
+  namespace: "development"
+rules:
+- apiGroups: ["", "apps", "batch"]
+  resources: ["pods", "deployments", "services", "configmaps", "secrets", "jobs"]
+  verbs: ["create", "get", "list", "update", "delete"]
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: viewer
+  namespace: "sales"
+rules:
+- apiGroups: ["", "apps", "batch"]
+  resources: ["*"]
+  verbs: ["get", "list", "watch"]
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: auditor
+rules:
+- apiGroups: ["", "events.k8s.io"]
+  resources: ["events", "pods/log"]
+  verbs: ["get", "list", "watch"]
+- nonResourceURLs: ["/metrics", "/healthz"]
+  verbs: ["get"]
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: external-access
+rules:
+- apiGroups: [""]
+  resources: ["services", "endpoints"]
+  verbs: ["get", "list"]
+- apiGroups: ["hku.propdevelopment.com"] 
+  resources: ["tenant-data"]
+  verbs: ["get"]
